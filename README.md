@@ -5,6 +5,8 @@ Libraries like Greensock and Jquery have their own ways of doing this, but I ten
 ## Usage 
 
 ```javascript
+
+// Make a chain for later
 const myChain = [
   {
     run: func1,
@@ -16,5 +18,6 @@ const myChain = [
   }
 ];
 
+// Run it
  chain(myChain);
 ```
